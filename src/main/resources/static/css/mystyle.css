@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    /* background-image: linear-gradient(to right top, #1b304f, #00618b, #00959c, #00c675, #a8eb12); */
+    /* background-color: #FFEDE4 ; */
+    /* background-image: linear-gradient(to right top, #556630, #59683a, #5e6a43, #626b4c, #666d55); */
+    /* background-image: linear-gradient(to right top, #556630, #7c8a5c, #a5af8a, #cfd7ba, #faffed); */
+    background-image: linear-gradient(to right top, #556630, #5a9079, #85b4b9, #c8d7e3, #ffffff);
+}

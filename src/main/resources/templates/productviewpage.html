@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="stylesheet" href="css/mystyle.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <title>Update</title>
+</head>
+
+<body>
+  <!-- header section -->
+
+  <header>
+    <!-- navigation bar  -->
+
+    <nav class="navbar navbar-light d-flex p-3 m-3" style="background-color: darkgrey;border-bottom-right-radius: 10%;">
+      <h3 style="flex: 2;font-family: 'Sofia', cursive;">Product bar</h3>
+      <div style="flex: 8;"></div>
+      <h5 style="flex: 1;font-family: 'Sofia', cursive;"><a th:href="@{/home}">Home</a></h5>
+      <h5 style="flex: 1;font-family: 'Sofia', cursive;"><a th:href="@{/productpage}">+Product</a></h5>&nbsp;
+      <h5 style="flex: 1;font-family: 'Sofia', cursive;"><a th:href="@{/categorypage}">+Category</a></h5>&nbsp;&nbsp;&nbsp;
+      <h5 style="flex: 1;font-family: 'Sofia', cursive;"><a th:href="@{/logout}">Log out</a></h5>
+    </nav>
+
+    <!-- end of navigation bar  -->
+
+  </header>
+
+  <!-- end of header section -->
+
+  <br><br><br><br>
+
+  <!-- Login section -->
+
+  <section>
+    <div class="container ">
+
+      <center>
+        <h3 style="font-family: 'Sofia', cursive;">Product Status</h3>
+      </center>
+      <br><br>
+
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr style="font-family: 'Sofia', cursive;">
+            <th scope="col">ID</th>
+            <th scope="col">Category Name</th>
+            <th scope="col">Number of Products</th>
+            <th scope="col">Views</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="font-family: 'Sofia', cursive;">
+            <th scope="row">1
+
+            </th>
+            <td>Mark
+
+            </td>
+            <td>Otto
+
+            </td>
+            <td>@mdo
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      
+    </div>
+  </section>
+
+  <!-- end of login section -->
+
+  <br><br><br>
+
+  <!-- footer section -->
+
+  <footer>
+    <div class="navbar navbar-light m-3 p-3" style="background-color: darkgrey;border-bottom-right-radius: 10%;">
+      <p style="font-family: 'Sofia', cursive;">&copy; Copyright</p>
+    </div>
+  </footer>
+
+  <!-- end of the footer section -->
+
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
